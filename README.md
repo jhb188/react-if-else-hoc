@@ -29,7 +29,7 @@ Accepts a predicate that is called with `props` and returns a boolean, and an `I
 
 Returns a higher-order component, which will render the supplied component when the predicate fails.
 
-```js
+```jsx
 const Hello = <div>Hello</div>
 const Goodbye = <div>Goodbye</div>
 
@@ -65,7 +65,7 @@ Accepts an alternative component and a predicate that is called with `props` and
 
 Returns a higher-order component, which will render the supplied component when the predicate passes, and the alternative component otherwise.
 
-```js
+```jsx
 const Loader = <div>Loading...</div>
 const orLoader = or(Loader, props => props.hasLoaded)
 
