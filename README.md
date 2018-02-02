@@ -105,7 +105,6 @@ or(
 Accepts a predicate that is called with `props` and returns a boolean.
 
 Returns a higher-order component, which will render the supplied component when the predicate passes, and `null` otherwise.
-```
 
 ## License
 
